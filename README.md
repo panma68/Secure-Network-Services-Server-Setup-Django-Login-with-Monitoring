@@ -3,14 +3,15 @@ This repository contains projects from the Network Security courses of the AUEB 
 
 For the first implementation there is only a report as it is a server setup. For the second one there is code.
 
-## The first project has a result to have created a VM with OS CentOS 7.
-The connection to the server is done only with SSH using any client (eg PuTTY).
+## The first project is a server configuration.
+
+It includes the initialization of a VM with OS CentOS 7. The connection to the server was done only with SSH using any client (eg PuTTY).
 
 1) SSH connection requires using AUEB VPN.
 
 2) Set the authentication to be done only with SSH keys.
 
-### Requirements included:
+### Tasks included:
 
   A. Create a "teacher" user. The teacher user should connect with ssh key.
 (Note: to check connectivity you can add to the file with public
