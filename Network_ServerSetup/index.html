@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+</head>
+<body>
+	<h2>Login</h2>
+  	<form name="loginForm">
+    <div name="username">
+		<label>Username: <input type="text" id="username_val" name="username"></label>
+	</div>
+	<div name="password">
+		<label>Password: <input type="text" id="password_val" name="password"></label>
+	</div>
+	<br>
+	<input type="button" value="Submit" onclick="checkUsername()">
+  </form>
+  
+  <div id="message"></div>
+  
+  <script>
+    function checkUsername() {
+
+	var usernameText = document.getElementById("username_val").value;
+
+	// Check AM
+	if (usernameText == "3180279") {
+	// Success
+		document.getElementById("message").innerHTML = "success";
+	 } else {
+		// Fail
+		document.getElementById("message").innerHTML = "fail";
+		}
+	}
+</script>
+  
+</body>
+</html>
