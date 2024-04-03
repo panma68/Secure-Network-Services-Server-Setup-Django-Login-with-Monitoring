@@ -1,4 +1,4 @@
-# Network_Security_Projects
+# Secure Network Services: Server Setup & Django Login with Monitoring
 This repository contains projects from the Network Security courses of the AUEB university.
 
 For the first implementation there is only a report as it is a server setup. For the second one there is code.
